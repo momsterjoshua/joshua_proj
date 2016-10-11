@@ -1,0 +1,131 @@
+h2 {
+    font-size: 28px;
+    font-family: Courier, monospace;
+    color: #785814;
+}
+
+
+/*h1 {font-size: 138px; font-family: Courier, monospace; font-style: italic; color: #785814;} */
+
+
+/* https://www.transparenttextures.com  http://subtlepatterns.com */
+
+body {
+    text-align: center;
+    background-color: #e6e6e6;
+    background-image: url("pict/sei.png");
+    background-size: cover;
+    background-position: 1px 1px;
+    background-attachment: scroll;
+}
+
+.leftpic {
+    float: left;
+}
+
+.rightpic {
+    float: right;
+}
+
+.pdiv1 {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+}
+
+.pdiv2 {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+}
+
+.pdiv3 {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+}
+
+.pdiv4 {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+}
+
+.pdiv5 {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+}
+
+.pdiv6 {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+}
+
+.point {
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    background-image: url(pic/sprite1.png);
+    background-position: 0 0;
+}
+
+.seti {
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+    background-image: url(pic/sprite.png);
+    float: left;
+}
+
+
+/*p {font-size: 20px;}*/
+
+
+/*
+
+
+h1, h2, p {text-align: center;}
+*/
+
+
+/*
+#ddd p {background-color: aqua}
+#ddd > p {background-color: blue}
+
+#ddd ~ p {background-color: green;}
+*/
+
+
+/*.qwe { color: palevioletred;}*/
+
+
+/*body {text-align: center; font: 16px/20px "times new roman", serif;}*/
+
+
+/*#qwsa {list-style-type: circle; list-style-image: url(pic/ok.png); }*/
+
+
+/*#gr2 {color: greenyellow;}*/
+
+
+/*
+#qwsa {list-style-type: circle; list-style-position: inside;}
+*/
+
+
+/*
+li {color: red; text-align: center;}
+li span {color: greenyellow}
+*/
+
+
+/*body {text-align: center; color: blue; background-color: aquamarine; background-image: url(pict/vse.jpg); background-size: cover; background-position: 1px 1px ; background-attachment: scroll;} */
+
+
+/* #qqq {color: blue; background-color: aquamarine; background-image: url(pict/vse.jpg); background-size: contain; background-position: center ; background-attachment: local;} */
+
+
+/*
+#gr {color: coral; text-align: center; text-decoration: underline; background-image: url(pict/all2.png); text-transform: lowercase; text-transform: capitalize; text-indent: 100px; overflow-y: scroll;}
+#gr2 {font-variant: small-caps;}
+a:link {color: chocolate;}
+a:visited {color: black;}
+a:hover {color: brown;}
+a:active {color: cyan;}
+*/

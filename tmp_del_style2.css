@@ -1,0 +1,29 @@
+/*
+ комментарий 
+.leftpic { float: left; }  
+.rightpic { float: right; }  
+.center-img {   text-align: center;  }  
+ h2 {font-size: 28px; font-family: Courier, monospace; color: #785814;} 
+*/
+
+
+/*p {font-size: 20px;}*/
+h1, h2, p {text-align: center;}
+/*
+#ddd p {background-color: aqua}
+#ddd > p {background-color: blue}
+
+#ddd ~ p {background-color: green;}
+*/
+
+/*.qwe { color: palevioletred;}*/
+/*
+body {color: blue; background-color: aquamarine; background-image: url(pict/vse.jpg); background-size: contain; background-position: 1px 1px ; background-attachment: local;} */
+#qqq {color: blue; background-color: aquamarine; background-image: url(pict/vse.jpg); background-size: contain; background-position: center ; background-attachment: local;  } 
+
+body {text-align: center}
+#gr {color: coral; text-align: center; text-decoration: underline; text-transform: lowercase; text-transform: capitalize; text-indent: 100px; overflow-y: scroll;}
+a:link {color: chocolate;}
+a:visited {color: black;}
+a:hover {color: brown;}
+a:active {color: cyan;}

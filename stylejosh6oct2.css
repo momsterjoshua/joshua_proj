@@ -1,0 +1,48 @@
+ body {
+ 	margin: 0 auto;
+ 	background-color: #efefef;
+ 	width: 1004px;
+ 	font: 13px Arial, monospace;
+ 	font-style: normal;
+ 	margin-left: 400px;
+ }
+ 
+ h2 {
+ 	width: 125px;
+ 	margin-top: 50px;
+ 	text-shadow: 2px -3px 5px green;
+ 	border: 20px double blue;
+ 	padding: 5px;
+ }
+ 
+ .pict {
+ 	margin-top: 100px;
+ 	margin-bottom: 100px;
+ 	opacity: 0.8;
+ 	|| display: none;
+ 	width: 20px;
+ 	height: 190px;
+ 	border: 1px solid red;
+ 	overflow: hidden;
+ 	box-shadow: inset 0px 0px 50px 50px yellow;
+ 	transition: width .5s linear 1s;
+ 	transform: translate(-50%, -50%); // смена позиции без позиционирования, не выходит из потока 
+ 	/*
+ 	transition-property: width;
+transition-duration: 3s;
+transition-timing-function: linear; //тип плавности итд
+transition-delay: 1s; //задержка
+*/
+ }
+ 
+ .pict:hover {
+ 	width: 280px;
+ }
+ 
+ .wikitext {
+ 	width: 400px;
+ 	height: 400px;
+ 	margin-bottom: 300px;
+ 	overflow-y: scroll;
+ 	box-shadow: 0px 0px 77px 66px black, inset 0 77px 66px red;
+ }

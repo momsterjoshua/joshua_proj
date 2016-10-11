@@ -1,0 +1,187 @@
+					body {
+						margin: 0 auto;
+						background-color: #efefef;
+						width: 1004px;
+						font: 13px Arial, monospace;
+						font-style: normal;
+						margin-left: 400px;
+					}
+					
+					@keyframes box {
+						from {
+							left: 0;
+						}
+						to {
+							left: 300px;
+						}
+					}
+					
+					.pict2 {
+						width: 600px;
+						background-color: aquamarine;
+						margin-top: 100px;
+						margin-bottom: 100px;
+						position: relative;
+						animation-name: box;
+						animation-duration: 1s;
+						transition-timing-function: ease-in-out;
+						animation-delay: 100ms;
+						animation-iteration-count: 99;
+						animation-direction: alternate-reverse;
+						animation-fill-mode: backwards;
+					}
+					
+					.pict2:hover {
+						animation-play-state: paused;
+					}
+					
+					.pict2:after {
+						background-color: red;
+						content: "";
+						position: absolute;
+						top: 250px;
+						left: 0;
+						width: 77%;
+						height: 77%;
+					}
+					
+					.maindiv {
+						background-color: gray;
+						width: 700px;
+					}
+					
+					.maindiv:after {
+						content: "";
+						clear: both;
+						display: block;
+					}
+					
+					.pict3 {
+						background-color: yellow;
+						border: 1px solid red;
+						float: left;
+						width: 200px;
+						height: 200px;
+					}
+					
+					.pict4 {
+						background-color: yellow;
+						border: 1px solid green;
+						float: right;
+						width: 200px;
+						height: 200px;
+					}
+					
+					.maindivclock1 {
+						margin-top: 100px;
+						width: 200px;
+						height: 300px;
+						border: 12px double gray;
+						border-radius: 15px;
+						box-shadow: inset 0px 0px 50px 50px yellow;
+						float: left;
+					}
+					
+					.maindivclock:after {
+						content: "";
+						position: absolute;
+						clear: both;
+						display: block;
+					}
+					
+					.maindivclock2 {
+						margin-top: 100px;
+						width: 200px;
+						height: 300px;
+						border: 12px double gray;
+						border-radius: 15px;
+						box-shadow: inset 0px 0px 50px 50px yellow;
+						float: left;
+					}
+					
+					.maindivclock:after {
+						content: "";
+						position: absolute;
+						clear: both;
+						display: block;
+					}
+					
+					.maindivclock3 {
+						margin-top: 100px;
+						width: 200px;
+						height: 300px;
+						border: 12px double gray;
+						border-radius: 15px;
+						box-shadow: inset 0px 0px 50px 50px yellow;
+						float: left;
+					}
+					
+					.maindivclock:after {
+						content: "";
+						position: absolute;
+						clear: both;
+						display: block;
+					}
+					
+					.dott {
+						margin-top: 100px;
+						width: 20px;
+						float: left;
+					}
+					
+					.dott:after {
+						content: "";
+						position: absolute;
+						clear: both;
+						display: block;
+					}
+					/*
+h2 {
+	width: 125px;
+	margin-top: 50px;
+	text-shadow: 2px -3px 5px green;
+	border: 20px double blue;
+	padding: 5px;
+}
+*/
+					/*
+ .pict {
+ 	
+ 	margin-top: 100px;
+ 	margin-bottom: 100px;
+ 	transform: rotate(45deg);
+ 	transform-origin: 50% 10%;
+ 	transform: skewX(40deg);
+ 	opacity: 0.8;
+ 	display: none;
+ 	width: 120px;
+ 	height: 190px;
+ 	border: 1px solid red;
+ 	overflow: hidden;
+ 	box-shadow: inset 0px 0px 50px 50px yellow;
+ 	transform: translate(-50%, -50%); // смена позиции без позиционирования, не выходит из потока
+ 	transform: rotate(45deg);
+ 	transform-origin: 70% 10%;
+ 	transform: scale(2, 2);
+ 	transition: width .5s linear 1s;
+*/
+					/*
+ 	transition-property: width;
+transition-duration: 3s;
+transition-timing-function: linear; //тип плавности итд
+transition-delay: 1s; //задержка
+}
+
+*/
+					/*
+.pict:hover {
+	width: 280px;
+}*/
+					/*
+.wikitext {
+	width: 400px;
+	height: 400px;
+	margin-bottom: 300px;
+	overflow-y: scroll;
+	box-shadow: 0px 0px 77px 66px black, inset 0 77px 66px red;
+}*/
