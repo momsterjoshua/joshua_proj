@@ -48,15 +48,41 @@
 //greetFriends(allFriends, function (friend) {
 //	console.log(`Hi, ` + friend);
 //});
-function genericPoemMaker(name, gender) {
-	console.log(name + ` finder`);
-	console.log(`altruistic`);
-	console.log(`style`);
-	console.log(`A ` + gender + ` smile`);
-}
 
-function genericUserInput(firstName, lastName, gender, callback) {
-	var name = firstName + " " + lastName;
-	callback(name, gender);
-}
-var say = genericUserInput("Anna", "Zii", "GIRL", genericPoemMaker);
+//function genericPoemMaker(name, gender) {
+//	console.log(name + ` finder`);
+//	console.log(`altruistic`);
+//	console.log(`style`);
+//	console.log(`A ` + gender + ` smile`);
+//}
+//
+//function genericUserInput(firstName, lastName, gender, callback) {
+//	var name = firstName + " " + lastName;
+//	callback(name, gender);
+//}
+//var say = genericUserInput("Anna", "Zii", "GIRL", genericPoemMaker);
+
+
+//
+//var arr = [1, 22, 33, 43, 65, 87, 75];
+//arr.forEach(function (elem, i, arr) {
+//	console.log(`there's ${elem} on the ${i} position`);
+//	console.log(arr);
+//});
+
+//
+//var arr = [0, 1, 22, 33, -43, 65, -87, 75, -9];
+//var newArray = arr.filter(function (elem) {
+//	return elem > 0;
+//});
+//console.log(newArray);
+
+
+var arr = [0, 1, 22, 33, -43, 65, -87, 75, -9];
+var arr2 = [1, 4, 5, 7, 16, 54];
+var newArray = arr2.filter(function (elem) {
+	return Math.sqrt(elem) === parseInt(Math.sqrt(elem));
+
+});
+
+console.log(newArray);
